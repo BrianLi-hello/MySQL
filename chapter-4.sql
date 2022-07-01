@@ -72,7 +72,7 @@ FROM customers c								-- joining the 4 tables
 		ON o.order_id = oi.order_id
 	JOIN products p
 		ON oi.product_id = p.product_id
-ORDER BY LastName, OrderDate, Quantity			-- sorting
+ORDER BY LastName, OrderDate, ProductName		-- sorting
 
 /* 
 Exercise 5:
