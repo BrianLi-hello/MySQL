@@ -13,7 +13,7 @@ SELECT 										-- selecting the columns
 FROM
     products p JOIN categories c
 		ON p.category_id = c.category_id	-- join condition
-ORDER BY CategoryName, ListPrice			-- sorting
+ORDER BY CategoryName, ProductName			-- sorting
 
 /* 
 Exercise 2:
