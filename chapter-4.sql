@@ -134,4 +134,4 @@ UNION 											-- union operator to connect select statements
         order_date AS OrderDate
 	FROM orders
 	WHERE ship_date IS NULL
-ORDER BY OrderDate DESC;						-- sorting
+ORDER BY OrderDate						        -- sorting
