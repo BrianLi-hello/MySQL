@@ -1,4 +1,4 @@
-use my_guitar_shop;
+USE my_guitar_shop;
 
 /* 
 Exercise 1:
